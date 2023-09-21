@@ -1,101 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: yellow;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: yellow;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer Portfolio</title>
+    <!-- Add your CSS stylesheets and JavaScript libraries here -->
+    <link rel="stylesheet" href="your-custom-styles.css">
 </head>
 <body>
+    <header>
+        <h1>Welcome to My DevOps Portfolio</h1>
+        <p>I am a passionate DevOps engineer ready to make a difference!</p>
+    </header>
 
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am a fresher DevOps engineer with a strong passion for automation, continuous integration, and continuous delivery.
+            I am excited about leveraging DevOps principles and tools to improve software development and deployment processes.
+        </p>
+    </section>
 
-<header>
-  <h2>Free DevOps Course By Abhishek</h2>
-</header>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Infrastructure as Code (IaC) with tools like Terraform</li>
+            <li>Containerization with Docker and container orchestration with Kubernetes</li>
+            <li>Version Control with Git</li>
+            <li>Continuous Integration and Continuous Delivery (CI/CD)</li>
+            <li>Scripting and automation with Shell, Python, or your preferred language</li>
+            <li>Configuration management with tools like Ansible</li>
+            <li>Monitoring and Logging with Prometheus, Grafana, ELK Stack, etc.</li>
+            <li>Cloud Services: AWS, Azure, Google Cloud</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
 
-<section>
-  <nav>
-    <ul>
-      <li><a href="www.youtube.com/@AbhishekVeeramalla">YouTube</a></li>
-      <li><a href="www.linkedin.com/in/abhishek-veeramalla-77b33996/">LinkedIn</a></li>
-      <li><a href="https://telegram.me/abhishekveeramalla">Telegram</a></li>
-    </ul>
-  </nav>
-  
-  <article>
-    <h1>Agenda</h1>
-    <p>Learn DevOps with strong foundational knowledge and practical understanding</p>
-    <p>Please Share the Channel with your friends and colleagues</p>
-  </article>
-</section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li><strong>Automated Deployment Pipeline:</strong> Designed and implemented a CI/CD pipeline for a web application using Jenkins, Docker, and Kubernetes.</li>
+            <li><strong>Infrastructure as Code:</strong> Wrote Terraform scripts to provision and manage AWS infrastructure resources.</li>
+            <li><strong>Monitoring Stack:</strong> Set up a monitoring stack with Prometheus and Grafana to monitor application performance.</li>
+            <!-- Add more projects and descriptions as needed -->
+        </ul>
+    </section>
 
-<footer>
-  <p>@AbhishekVeeramalla</p>
-</footer>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to connect or discuss potential collaborations, feel free to contact me:</p>
+        <ul>
+            <li>Email: your.email@example.com</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></li>
+            <li>GitHub: <a href="https://github.com/yourusername" target="_blank">GitHub Profile</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Add your custom JavaScript here if needed -->
 
 </body>
 </html>
-
